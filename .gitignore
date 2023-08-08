@@ -428,3 +428,4 @@ sketch
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/react,django,pycharm,visualstudiocode,git,python
+.vercel

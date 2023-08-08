@@ -28,7 +28,7 @@ const Login = (response: string) => {
             // 'redirect': false,
             username: values.username,
             password: values.password,
-            callbackUrl: `/dashboard`,
+            callbackUrl: `${process.env.NEXT_CLIENT_URL}/dashboard`,
         });
     };
 
